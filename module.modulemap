@@ -1,0 +1,6 @@
+module clibui [system] {
+    header "ui.h"
+    header "uitable.h"
+	link "ui"
+    export *
+}
