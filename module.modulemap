@@ -1,5 +1,5 @@
 module clibui [system] {
-    header "ui.h"
+    umbrella header "header.h"
 	link "ui"
     export *
 }
