@@ -1,7 +1,7 @@
 import PackageDescription
 
 #if os(Linux)
-let dependencies:[Package.Dependency] = [.Package(url: "../cgtk", majorVersion: 3)]
+let dependencies:[Package.Dependency] = [.Package(url: "https://github.com/sclukey/cgtk3.git", majorVersion: 1)]
 #else
 let dependencies:[Package.Dependency] = []
 #endif
